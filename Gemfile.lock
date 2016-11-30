@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/rspec/rspec.git
+  revision: bc209d4a2a2dfbf38ac1d470b213753aa9e654db
+  specs:
+    rspec (3.6.0.beta1)
+      rspec-core (= 3.6.0.beta1)
+      rspec-expectations (= 3.6.0.beta1)
+      rspec-mocks (= 3.6.0.beta1)
+
+GIT
   remote: https://github.com/sparklemotion/nokogiri.git
   revision: 7f8b7b2bf55829e02cd11c2eb25814c3ed458676
   specs:
@@ -42,19 +51,15 @@ GEM
     pdfkit (0.5.2)
     rack (1.6.4)
     rake (11.3.0)
-    rspec (3.5.0)
-      rspec-core (~> 3.5.0)
-      rspec-expectations (~> 3.5.0)
-      rspec-mocks (~> 3.5.0)
-    rspec-core (3.5.4)
-      rspec-support (~> 3.5.0)
-    rspec-expectations (3.5.0)
+    rspec-core (3.6.0.beta1)
+      rspec-support (= 3.6.0.beta1)
+    rspec-expectations (3.6.0.beta1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.5.0)
-    rspec-mocks (3.5.0)
+      rspec-support (= 3.6.0.beta1)
+    rspec-mocks (3.6.0.beta1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.5.0)
-    rspec-support (3.5.0)
+      rspec-support (= 3.6.0.beta1)
+    rspec-support (3.6.0.beta1)
     simple-rss (1.3.1)
     sqlite3 (1.3.12)
     sqlite3-ruby (1.3.3)
@@ -71,7 +76,7 @@ DEPENDENCIES
   nokogiri (= 1.6.0)!
   pdfkit (~> 0.5)
   rack (~> 1.1)
-  rspec
+  rspec!
 
 BUNDLED WITH
    1.13.6
