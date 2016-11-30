@@ -2,7 +2,7 @@ GIT
   remote: https://github.com/sparklemotion/nokogiri.git
   revision: 7f8b7b2bf55829e02cd11c2eb25814c3ed458676
   specs:
-    nokogiri (1.6.8.1)
+    nokogiri (1.6.0)
 
 GEM
   remote: https://rubygems.org/
@@ -68,7 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   fastreader
-  nokogiri (= 1.6.8.1)!
+  nokogiri (= 1.6.0)!
   pdfkit (~> 0.5)
   rack (~> 1.1)
   rspec
