@@ -7,12 +7,6 @@ GIT
       rspec-expectations (= 3.6.0.beta1)
       rspec-mocks (= 3.6.0.beta1)
 
-GIT
-  remote: https://github.com/sparklemotion/nokogiri.git
-  revision: 7f8b7b2bf55829e02cd11c2eb25814c3ed458676
-  specs:
-    nokogiri (1.6.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,7 +41,10 @@ GEM
       rake (>= 0.8, < 12.0)
     hpricot (0.8.6)
     i18n (0.7.0)
+    mini_portile2 (2.4.0)
     minitest (5.9.1)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     pdfkit (0.5.2)
     rack (1.6.4)
     rake (11.3.0)
@@ -73,10 +70,10 @@ PLATFORMS
 
 DEPENDENCIES
   fastreader
-  nokogiri (= 1.6.0)!
+  nokogiri (= 1.10.8)
   pdfkit (~> 0.5)
   rack (~> 1.1)
   rspec!
 
 BUNDLED WITH
-   1.13.6
+   1.17.3
